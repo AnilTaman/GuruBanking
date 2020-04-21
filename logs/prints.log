@@ -1,7 +1,4 @@
-12:47:23.373 [main] INFO  Banking.addCustomerTestCase - Going to add customer page
-12:47:28.888 [main] DEBUG Banking.addCustomerTestCase - All the details are filled
-12:50:32.400 [main] INFO  Banking.loginTestCase - Site is Open
-12:50:50.528 [main] DEBUG Banking.loginTestCase - Username is given
-12:50:50.970 [main] DEBUG Banking.loginTestCase - Password is given
-12:51:06.644 [main] INFO  Banking.addCustomerTestCase - Going to add customer page
-12:51:36.970 [main] DEBUG Banking.addCustomerTestCase - All the details are filled
+15:32:56.475 [main] DEBUG Banking.loginTestCase - Password is given
+16:21:32.675 [main] INFO  Banking.loginTestCase - Site is Open
+16:22:00.544 [main] DEBUG Banking.loginTestCase - Username is given
+16:22:01.582 [main] DEBUG Banking.loginTestCase - Password is given

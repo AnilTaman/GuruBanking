@@ -1,7 +1,13 @@
 package Utility;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -47,4 +53,20 @@ public class baseClass {
 	{
 		driver.quit();
 	}*/
+	/*public String getScreenShot(String result) throws IOException
+	{
+		File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		String Path=System.getProperty("user.dir")+"\\ScreensShot\\"+result+".png";
+		File destPath=new File(Path);
+		FileUtils.copyFile(src,destPath);
+		return Path;
+	}*/
+	public String getScreenShot(String testCaseName) throws IOException
+	{
+		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		String Path=System.getProperty("user.dir")+"\\Reports\\"+testCaseName+".png";
+		File destPath=new File(Path);
+		FileUtils.copyFile(src,destPath);
+		return Path;
+	}
 }
