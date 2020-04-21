@@ -32,6 +32,7 @@ public class addCustomerTestCase extends baseClass{
 		cp.getemailid(email);
 		cp.getpassword("asjjjpp");
 		log.debug("All the details are filled");
+		Thread.sleep(5000);
 		cp.clicksubmit();
 		Thread.sleep(5000);
 		System.out.println(driver.getTitle());

@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="230761" started-at="2020-04-20T23:21:58 IST" finished-at="2020-04-20T23:25:49 IST">
+  <suite name="Suite" duration-ms="221880" started-at="2020-04-21T12:48:07 IST" finished-at="2020-04-21T12:51:49 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="230761" started-at="2020-04-20T23:21:58 IST" finished-at="2020-04-20T23:25:49 IST">
+    <test name="Test" duration-ms="221880" started-at="2020-04-21T12:48:07 IST" finished-at="2020-04-21T12:51:49 IST">
       <class name="Banking.addCustomerTestCase">
-        <test-method status="PASS" signature="addCustomer()[pri:0, instance:Banking.addCustomerTestCase@44431a]" name="addCustomer" duration-ms="32780" started-at="2020-04-20T23:25:16 IST" finished-at="2020-04-20T23:25:49 IST">
+        <test-method status="PASS" signature="addCustomer()[pri:0, instance:Banking.addCustomerTestCase@e37e5a]" name="addCustomer" duration-ms="49843" started-at="2020-04-21T12:51:00 IST" finished-at="2020-04-21T12:51:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
       </class> <!-- Banking.addCustomerTestCase -->
       <class name="Banking.loginTestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Banking.loginTestCase@a41516]" name="setUp" is-config="true" duration-ms="105752" started-at="2020-04-20T23:21:58 IST" finished-at="2020-04-20T23:23:44 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Banking.loginTestCase@5d709]" name="setUp" is-config="true" duration-ms="102992" started-at="2020-04-21T12:48:08 IST" finished-at="2020-04-21T12:49:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginHomePage()[pri:0, instance:Banking.loginTestCase@a41516]" name="LoginHomePage" duration-ms="92061" started-at="2020-04-20T23:23:44 IST" finished-at="2020-04-20T23:25:16 IST">
+        <test-method status="PASS" signature="LoginHomePage()[pri:0, instance:Banking.loginTestCase@5d709]" name="LoginHomePage" duration-ms="68726" started-at="2020-04-21T12:49:51 IST" finished-at="2020-04-21T12:50:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginHomePage -->

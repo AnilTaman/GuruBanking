@@ -23,7 +23,7 @@ public class loginTestCase extends baseClass {
 		log.debug("Password is given");
 		lp.getLogin();
 		
-		if(driver.getTitle().equals("Guru99 Bank Manager HomePage1"))
+		if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
 		{
 			Assert.assertTrue(true);
 		}

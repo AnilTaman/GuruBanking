@@ -12,12 +12,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- Banking.addCustomerTestCase -->
-      <class name="Banking.loginTestCase">
-        <methods>
-          <include name="LoginHomePage"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Banking.loginTestCase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
