@@ -1,0 +1,7 @@
+23:11:19.192 [main] INFO  Banking.addCustomerTestCase - Going to add customer page
+23:11:25.805 [main] DEBUG Banking.addCustomerTestCase - All the details are filled
+23:14:31.482 [main] INFO  Banking.loginTestCase - Site is Open
+23:14:42.792 [main] DEBUG Banking.loginTestCase - Username is given
+23:14:43.317 [main] DEBUG Banking.loginTestCase - Password is given
+23:17:27.885 [main] INFO  Banking.loginTestCase - Site is Open
+23:17:37.848 [main] DEBUG Banking.loginTestCase - Username is given
